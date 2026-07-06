@@ -1,0 +1,32 @@
+repo_name: VeritasIA
+site_name: VeritasIA
+repo_url: https://github.com/unb-mds/2026-2-VeritasIA
+site_description: "Documentação oficial do VeritasIA"
+docs_dir: docs
+site_url: https://unb-mds.github.io/2026-2-VeritasIA/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: pt-BR
+  features:
+    - navigation.tabs
+  palette:
+    primary: custom
+    accent: custom
+
+nav:
+  - Home: index.md
+
+site_dir: site
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths:
+            - .
