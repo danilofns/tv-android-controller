@@ -1,9 +1,8 @@
-repo_name: VeritasIA
-site_name: VeritasIA
-repo_url: https://github.com/unb-mds/2026-2-VeritasIA
-site_description: "Documentação oficial do VeritasIA"
+repo_name: TV Android Controller
+site_name: TV Android Controller
+repo_url: https://github.com/danilofns/tv-android-controller
+site_description: "Documentação oficial do TV Android Controller"
 docs_dir: docs
-site_url: https://unb-mds.github.io/2026-2-VeritasIA/docs/
 
 theme:
   name: material
